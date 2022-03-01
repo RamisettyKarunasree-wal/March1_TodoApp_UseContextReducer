@@ -1,38 +1,57 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  border-collapse: collapse;
+  background: pink;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  padding: 10px;
+}
+.item {
+  background: linear-gradient(109deg, skyblue, yellow);
+  padding: 15px;
+  width: fit-content;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+table td,
+table th {
+  padding: 2px;
+  margin: 2px;
+  font-weight: 700;
+  border: 1px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input,
+select {
+  margin: 10px;
+  padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  margin: 5px;
+  padding: 5px;
+  background-color: blueviolet;
+  color: aliceblue;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: rgb(78, 39, 116);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prime_btn,
+.del_btn {
+  background-color: green;
+  margin: 10px;
+  padding: 10px;
+}
+.prime_btn:hover {
+  background-color: rgb(16, 78, 16);
+}
+.del_btn {
+  background-color: rgb(177, 7, 7);
+}
+.del_btn:hover {
+  background-color: rgb(137, 7, 7);
 }
